@@ -1,0 +1,1281 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Explore the signature coffee, breakfast, mains and desserts at Lahore Cafe."
+    >
+
+    <title>Menu — Lahore Cafe</title>
+
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- Main CSS -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body class="menu-page">
+
+
+    <!-- =====================================================
+         AMBIENT BACKGROUND
+    ====================================================== -->
+
+    <div class="ambient-background">
+
+        <div class="ambient-glow glow-one"></div>
+
+        <div class="ambient-glow glow-two"></div>
+
+        <div class="ambient-glow glow-three"></div>
+
+        <div class="grain"></div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         NAVBAR
+    ====================================================== -->
+
+    <header
+        class="navbar"
+        id="navbar"
+    >
+
+        <a
+            href="index.html"
+            class="logo"
+        >
+
+            <span class="logo-mark">
+                L
+            </span>
+
+            <span class="logo-text">
+
+                Lahore
+
+                <small>
+                    Cafe
+                </small>
+
+            </span>
+
+        </a>
+
+
+        <nav
+            class="nav-links"
+            id="navLinks"
+        >
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a
+                href="menu.html"
+                class="active"
+            >
+                Menu
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <a
+            href="contact.html"
+            class="nav-button"
+        >
+            Reserve a Table
+        </a>
+
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            type="button"
+            aria-label="Open navigation"
+        >
+
+            <span></span>
+
+            <span></span>
+
+            <span></span>
+
+        </button>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             MENU HERO
+        ================================================== -->
+
+        <section class="page-hero menu-hero">
+
+            <div class="page-hero-content">
+
+                <span class="section-label">
+                    THE LAHORE CAFE MENU
+                </span>
+
+
+                <h1>
+
+                    Crafted to
+                    <br>
+
+                    <em>
+                        be remembered.
+                    </em>
+
+                </h1>
+
+
+                <p>
+
+                    From your first morning coffee to a
+                    late-night dessert, discover something
+                    worth coming back for.
+
+                </p>
+
+            </div>
+
+
+            <!-- 3D menu object -->
+
+            <div class="menu-hero-object">
+
+                <div class="menu-orbit orbit-one"></div>
+
+                <div class="menu-orbit orbit-two"></div>
+
+
+                <div class="menu-plate">
+
+                    <div class="plate-glow"></div>
+
+
+                    <div class="plate-food">
+
+                        <span class="food-symbol">
+                            ☕
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="menu-floating-price">
+
+                    <span>
+                        FROM
+                    </span>
+
+                    <strong>
+                        Rs. 450
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             MENU INTRO
+        ================================================== -->
+
+        <section class="menu-intro section-shell">
+
+            <div class="menu-intro-copy">
+
+                <span class="section-label">
+                    OUR KITCHEN
+                </span>
+
+
+                <h2>
+
+                    Something for
+                    <em>
+                        every mood.
+                    </em>
+
+                </h2>
+
+
+                <p>
+
+                    Our menu blends familiar comfort with
+                    modern café favourites. Everything is
+                    prepared with carefully selected ingredients
+                    and served fresh.
+
+                </p>
+
+            </div>
+
+
+            <div class="menu-intro-mark">
+
+                <span>
+                    L
+                </span>
+
+                <small>
+                    CAFE
+                </small>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             MENU FILTER
+        ================================================== -->
+
+        <section class="menu-section section-shell">
+
+            <div
+                class="menu-filter"
+                id="menuFilter"
+                role="tablist"
+                aria-label="Menu categories"
+            >
+
+                <button
+                    class="filter-button active"
+                    type="button"
+                    data-filter="all"
+                    role="tab"
+                    aria-selected="true"
+                >
+                    All
+                </button>
+
+
+                <button
+                    class="filter-button"
+                    type="button"
+                    data-filter="coffee"
+                    role="tab"
+                    aria-selected="false"
+                >
+                    Coffee
+                </button>
+
+
+                <button
+                    class="filter-button"
+                    type="button"
+                    data-filter="breakfast"
+                    role="tab"
+                    aria-selected="false"
+                >
+                    Breakfast
+                </button>
+
+
+                <button
+                    class="filter-button"
+                    type="button"
+                    data-filter="mains"
+                    role="tab"
+                    aria-selected="false"
+                >
+                    Mains
+                </button>
+
+
+                <button
+                    class="filter-button"
+                    type="button"
+                    data-filter="desserts"
+                    role="tab"
+                    aria-selected="false"
+                >
+                    Desserts
+                </button>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 MENU GRID
+            ================================================== -->
+
+            <div
+                class="full-menu-grid"
+                id="fullMenuGrid"
+            >
+
+
+                <!-- =================================================
+                     COFFEE 01
+                ================================================== -->
+
+                <article
+                    class="full-menu-card"
+                    data-category="coffee"
+                >
+
+                    <div class="full-menu-visual coffee-visual">
+
+                        <span class="food-emoji">
+                            ☕
+                        </span>
+
+
+                        <span class="menu-card-category">
+                            COFFEE
+                        </span>
+
+
+                        <span class="menu-card-number">
+                            01
+                        </span>
+
+                    </div>
+
+
+                    <div class="full-menu-content">
+
+                        <div class="full-menu-title">
+
+                            <h3>
+                                Signature Latte
+                            </h3>
+
+                            <strong>
+                                Rs. 650
+                            </strong>
+
+                        </div>
+
+
+                        <p>
+
+                            Smooth espresso, velvety steamed
+                            milk and our signature house blend.
+
+                        </p>
+
+
+                        <div class="menu-tags">
+
+                            <span>
+                                BESTSELLER
+                            </span>
+
+                            <span>
+                                HOT / ICED
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     COFFEE 02
+                ================================================== -->
+
+                <article
+                    class="full-menu-card"
+                    data-category="coffee"
+                >
+
+                    <div class="full-menu-visual mocha-visual">
+
+                        <span class="food-emoji">
+                            ☕
+                        </span>
+
+
+                        <span class="menu-card-category">
+                            COFFEE
+                        </span>
+
+
+                        <span class="menu-card-number">
+                            02
+                        </span>
+
+                    </div>
+
+
+                    <div class="full-menu-content">
+
+                        <div class="full-menu-title">
+
+                            <h3>
+                                Velvet Mocha
+                            </h3>
+
+                            <strong>
+                                Rs. 720
+                            </strong>
+
+                        </div>
+
+
+                        <p>
+
+                            Rich espresso, dark chocolate,
+                            steamed milk and a delicate finish.
+
+                        </p>
+
+
+                        <div class="menu-tags">
+
+                            <span>
+                                SIGNATURE
+                            </span>
+
+                            <span>
+                                HOT / ICED
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     COFFEE 03
+                ================================================== -->
+
+                <article
+                    class="full-menu-card"
+                    data-category="coffee"
+                >
+
+                    <div class="full-menu-visual cold-visual">
+
+                        <span class="food-emoji">
+                            🧊
+                        </span>
+
+
+                        <span class="menu-card-category">
+                            COFFEE
+                        </span>
+
+
+                        <span class="menu-card-number">
+                            03
+                        </span>
+
+                    </div>
+
+
+                    <div class="full-menu-content">
+
+                        <div class="full-menu-title">
+
+                            <h3>
+                                Cold Brew
+                            </h3>
+
+                            <strong>
+                                Rs. 580
+                            </strong>
+
+                        </div>
+
+
+                        <p>
+
+                            Slow-brewed for a smooth,
+                            refreshing and naturally sweet finish.
+
+                        </p>
+
+
+                        <div class="menu-tags">
+
+                            <span>
+                                REFRESHING
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     BREAKFAST 01
+                ================================================== -->
+
+                <article
+                    class="full-menu-card"
+                    data-category="breakfast"
+                >
+
+                    <div class="full-menu-visual pancake-visual">
+
+                        <span class="food-emoji">
+                            🥞
+                        </span>
+
+
+                        <span class="menu-card-category">
+                            BREAKFAST
+                        </span>
+
+
+                        <span class="menu-card-number">
+                            04
+                        </span>
+
+                    </div>
+
+
+                    <div class="full-menu-content">
+
+                        <div class="full-menu-title">
+
+                            <h3>
+                                Honey Pancakes
+                            </h3>
+
+                            <strong>
+                                Rs. 890
+                            </strong>
+
+                        </div>
+
+
+                        <p>
+
+                            Fluffy pancakes served with seasonal
+                            fruit, whipped cream and honey.
+
+                        </p>
+
+
+                        <div class="menu-tags">
+
+                            <span>
+                                MORNING FAVOURITE
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     BREAKFAST 02
+                ================================================== -->
+
+                <article
+                    class="full-menu-card"
+                    data-category="breakfast"
+                >
+
+                    <div class="full-menu-visual eggs-visual">
+
+                        <span class="food-emoji">
+                            🍳
+                        </span>
+
+
+                        <span class="menu-card-category">
+                            BREAKFAST
+                        </span>
+
+
+                        <span class="menu-card-number">
+                            05
+                        </span>
+
+                    </div>
+
+
+                    <div class="full-menu-content">
+
+                        <div class="full-menu-title">
+
+                            <h3>
+                                Lahore Breakfast
+                            </h3>
+
+                            <strong>
+                                Rs. 980
+                            </strong>
+
+                        </div>
+
+
+                        <p>
+
+                            Eggs, paratha, grilled vegetables,
+                            fresh fruit and our house chai.
+
+                        </p>
+
+
+                        <div class="menu-tags">
+
+                            <span>
+                                LOCAL FAVOURITE
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     MAINS 01
+                ================================================== -->
+
+                <article
+                    class="full-menu-card"
+                    data-category="mains"
+                >
+
+                    <div class="full-menu-visual pasta-visual">
+
+                        <span class="food-emoji">
+                            🍝
+                        </span>
+
+
+                        <span class="menu-card-category">
+                            MAINS
+                        </span>
+
+
+                        <span class="menu-card-number">
+                            06
+                        </span>
+
+                    </div>
+
+
+                    <div class="full-menu-content">
+
+                        <div class="full-menu-title">
+
+                            <h3>
+                                Creamy Alfredo
+                            </h3>
+
+                            <strong>
+                                Rs. 1,150
+                            </strong>
+
+                        </div>
+
+
+                        <p>
+
+                            Silky cream sauce, parmesan,
+                            herbs and perfectly cooked pasta.
+
+                        </p>
+
+
+                        <div class="menu-tags">
+
+                            <span>
+                                COMFORT FOOD
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     MAINS 02
+                ================================================== -->
+
+                <article
+                    class="full-menu-card"
+                    data-category="mains"
+                >
+
+                    <div class="full-menu-visual burger-visual">
+
+                        <span class="food-emoji">
+                            🍔
+                        </span>
+
+
+                        <span class="menu-card-category">
+                            MAINS
+                        </span>
+
+
+                        <span class="menu-card-number">
+                            07
+                        </span>
+
+                    </div>
+
+
+                    <div class="full-menu-content">
+
+                        <div class="full-menu-title">
+
+                            <h3>
+                                Signature Burger
+                            </h3>
+
+                            <strong>
+                                Rs. 1,250
+                            </strong>
+
+                        </div>
+
+
+                        <p>
+
+                            Juicy grilled patty, caramelised
+                            onions, house sauce and crisp fries.
+
+                        </p>
+
+
+                        <div class="menu-tags">
+
+                            <span>
+                                CHEF'S PICK
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     MAINS 03
+                ================================================== -->
+
+                <article
+                    class="full-menu-card"
+                    data-category="mains"
+                >
+
+                    <div class="full-menu-visual pizza-visual">
+
+                        <span class="food-emoji">
+                            🍕
+                        </span>
+
+
+                        <span class="menu-card-category">
+                            MAINS
+                        </span>
+
+
+                        <span class="menu-card-number">
+                            08
+                        </span>
+
+                    </div>
+
+
+                    <div class="full-menu-content">
+
+                        <div class="full-menu-title">
+
+                            <h3>
+                                Garden Pizza
+                            </h3>
+
+                            <strong>
+                                Rs. 1,350
+                            </strong>
+
+                        </div>
+
+
+                        <p>
+
+                            Stone-baked crust, tomato sauce,
+                            mozzarella and fresh garden toppings.
+
+                        </p>
+
+
+                        <div class="menu-tags">
+
+                            <span>
+                                VEGETARIAN
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     DESSERT 01
+                ================================================== -->
+
+                <article
+                    class="full-menu-card"
+                    data-category="desserts"
+                >
+
+                    <div class="full-menu-visual cheesecake-visual">
+
+                        <span class="food-emoji">
+                            🍰
+                        </span>
+
+
+                        <span class="menu-card-category">
+                            DESSERT
+                        </span>
+
+
+                        <span class="menu-card-number">
+                            09
+                        </span>
+
+                    </div>
+
+
+                    <div class="full-menu-content">
+
+                        <div class="full-menu-title">
+
+                            <h3>
+                                Lotus Cheesecake
+                            </h3>
+
+                            <strong>
+                                Rs. 850
+                            </strong>
+
+                        </div>
+
+
+                        <p>
+
+                            Creamy cheesecake layered with
+                            rich Lotus biscuit crumbs.
+
+                        </p>
+
+
+                        <div class="menu-tags">
+
+                            <span>
+                                BESTSELLER
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     DESSERT 02
+                ================================================== -->
+
+                <article
+                    class="full-menu-card"
+                    data-category="desserts"
+                >
+
+                    <div class="full-menu-visual brownie-visual">
+
+                        <span class="food-emoji">
+                            🍫
+                        </span>
+
+
+                        <span class="menu-card-category">
+                            DESSERT
+                        </span>
+
+
+                        <span class="menu-card-number">
+                            10
+                        </span>
+
+                    </div>
+
+
+                    <div class="full-menu-content">
+
+                        <div class="full-menu-title">
+
+                            <h3>
+                                Dark Chocolate Brownie
+                            </h3>
+
+                            <strong>
+                                Rs. 690
+                            </strong>
+
+                        </div>
+
+
+                        <p>
+
+                            Warm chocolate brownie served with
+                            vanilla cream and chocolate drizzle.
+
+                        </p>
+
+
+                        <div class="menu-tags">
+
+                            <span>
+                                RICH
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+
+                <!-- =================================================
+                     DESSERT 03
+                ================================================== -->
+
+                <article
+                    class="full-menu-card"
+                    data-category="desserts"
+                >
+
+                    <div class="full-menu-visual tiramisu-visual">
+
+                        <span class="food-emoji">
+                            🍮
+                        </span>
+
+
+                        <span class="menu-card-category">
+                            DESSERT
+                        </span>
+
+
+                        <span class="menu-card-number">
+                            11
+                        </span>
+
+                    </div>
+
+
+                    <div class="full-menu-content">
+
+                        <div class="full-menu-title">
+
+                            <h3>
+                                Classic Tiramisu
+                            </h3>
+
+                            <strong>
+                                Rs. 790
+                            </strong>
+
+                        </div>
+
+
+                        <p>
+
+                            Espresso-soaked layers with mascarpone
+                            cream and a light cocoa finish.
+
+                        </p>
+
+
+                        <div class="menu-tags">
+
+                            <span>
+                                CLASSIC
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             CHEF'S NOTE
+        ================================================== -->
+
+        <section class="chef-note section-shell">
+
+            <div class="chef-note-inner">
+
+                <div class="chef-note-mark">
+                    “
+                </div>
+
+
+                <div class="chef-note-content">
+
+                    <span class="section-label">
+                        FROM OUR KITCHEN
+                    </span>
+
+
+                    <blockquote>
+
+                        We don't want you to simply
+                        remember what you ate.
+                        We want you to remember
+                        how the moment felt.
+
+                    </blockquote>
+
+
+                    <span class="chef-signature">
+                        — Lahore Cafe Kitchen
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             MENU CTA
+        ================================================== -->
+
+        <section class="cta-section menu-cta">
+
+            <div class="cta-glow"></div>
+
+
+            <span class="section-label">
+                COME HUNGRY
+            </span>
+
+
+            <h2>
+
+                Your table.
+                <br>
+
+                <em>
+                    Your moment.
+                </em>
+
+            </h2>
+
+
+            <p>
+
+                Bring your people.
+                We'll take care of the rest.
+
+            </p>
+
+
+            <a
+                href="contact.html#reservation"
+                class="btn btn-primary"
+            >
+
+                Reserve a Table
+
+                <span class="btn-arrow">
+                    →
+                </span>
+
+            </a>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-brand">
+
+            <a
+                href="index.html"
+                class="logo"
+            >
+
+                <span class="logo-mark">
+                    L
+                </span>
+
+                <span class="logo-text">
+
+                    Lahore
+
+                    <small>
+                        Cafe
+                    </small>
+
+                </span>
+
+            </a>
+
+
+            <p>
+                Crafted moments.
+                One cup at a time.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a
+                href="menu.html"
+                class="active"
+            >
+                Menu
+            </a>
+
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Lahore Cafe.
+                Sample website concept.
+            </span>
+
+            <span>
+                Lahore, Pakistan
+            </span>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
